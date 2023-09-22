@@ -1,0 +1,137 @@
+.similar-job-list-item {
+  background-color: #202020;
+  padding: 18px;
+  margin-bottom: 16px;
+  width: 100%;
+  border-radius: 16px;
+}
+.company-job-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-role {
+  color: #f1f5f9;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+}
+.company-logo {
+  width: 50px;
+  margin-right: 12px;
+}
+.star-icon {
+  font-size: 18px;
+  color: #fbbf24;
+  margin-right: 6px;
+}
+.rating {
+  font-family: 'Roboto';
+  color: #f1f5f9;
+  font-size: 14px;
+}
+.location-job-type-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+.location-job-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+.job-type-container {
+  display: flex;
+  align-items: center;
+}
+.gps-icon {
+  font-size: 18px;
+  margin-right: 4px;
+  color: #f1f5f9;
+}
+.location {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #f1f5f9;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.job-type {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #f1f5f9;
+  font-size: 12px;
+  margin-top: 4px;
+}
+.brief-case-icon {
+  color: #f1f5f9;
+  margin-right: 4px;
+  font-size: 18px;
+}
+.package {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.hr-line {
+  border: 1px solid #64748b;
+}
+.description-container {
+  margin-top: 12px;
+}
+.description-text {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.job-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+@media (min-width: 768px) {
+  .gps-icon {
+    font-size: 20px;
+  }
+  .job-type {
+    font-size: 14px;
+  }
+  .brief-case-icon {
+    font-size: 20px;
+  }
+  .location {
+    font-size: 14px;
+  }
+  .company-logo {
+    width: 54px;
+  }
+  .job-role {
+    font-size: 18px;
+  }
+  .star-icon {
+    font-size: 20px;
+  }
+  .rating {
+    font-size: 16px;
+  }
+  .similar-job-list-item {
+    width: 45%;
+    margin-bottom: 16px;
+    margin-right: 16px;
+  }
+}
